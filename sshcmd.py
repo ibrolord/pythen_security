@@ -12,4 +12,6 @@ def ssh_command(ip, user, passwd, command):
         print(ssh_session.recv(1024))
     return
 
-ssh_command('205.166.94.4', 'ibro', '8tnLfx1J270lg', 'ls')
+ssh_command('205.166.94.4', 'ibro', '
+
+', 'ls')
