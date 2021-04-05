@@ -1,7 +1,7 @@
 # created by virtualenv automatically
+.gitignore
 bin
 lib
 pyvenv.cfg
 test_rsa.key
-.gitignore
 __pycache__
