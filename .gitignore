@@ -5,3 +5,4 @@ lib
 pyvenv.cfg
 test_rsa.key
 __pycache__
+dsa

